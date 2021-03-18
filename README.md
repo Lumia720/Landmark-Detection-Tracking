@@ -18,6 +18,6 @@ Robot motion and sensors have some uncertainty associated with them. For example
 
 In notebook 1, we look at the robot class. First, we'll create a robot and move it around a 2D grid world. Then I define a sense function for this robot that allows it to sense landmarks in a given world. Understanding of how this robot moves, senses, and how it keeps track of different landmarks that it sees in a 2D grid world is very important.
 
-<img src="https://github.com/Lumia720/Landmark-Detection-Tracking/blob/main/images/robot_world.png" width="100" height="100">
+<img src="https://github.com/Lumia720/Landmark-Detection-Tracking/blob/main/images/robot_world.png" width="400" height="400">
 
 
