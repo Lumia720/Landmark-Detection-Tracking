@@ -31,7 +31,7 @@ It's easiest to see how these work in an example. Below you can see a matrix rep
 
 
 Next, let's look at a simple example that relates 3 poses to one another.
-<img src="https://github.com/Lumia720/Landmark-Detection-Tracking/blob/main/images/omega_xi_constraints.png" width="450" height = "300">
+<img src="https://github.com/Lumia720/Landmark-Detection-Tracking/blob/main/images/omega_xi_constraints.png">
 
 
 
