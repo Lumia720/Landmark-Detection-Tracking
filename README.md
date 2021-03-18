@@ -62,7 +62,7 @@ With these values in mind, we see a result that displays two lists:
 Landmark Locations
 If we refer back to the printout of exact landmark locations when this data was created, you should see values that are very similar to those coordinates, but not quite (since slam must account for noise in motion and measurement).
 
-## Conclusion
+## Conclusion - see Notebook 3 for visualization of constructed world
 Due to noise in measurement and motion, the True Landmarks and Robot positions are a bit different from the Estimated Landmarks and Robot position.
 
 If we move more, it is not clear if we get any more accurate measurements, the noise of measurement and movement will still make estimations of positions approximate. I have tried to increase number of steps from 20 to 2000 and calculate MSE, there was no consistent improvement. If we reduce both noise in movement and measurement thus increasing our confidence of each new update, then more steps would produce more accurate estimates.
