@@ -27,14 +27,8 @@ In notebook 1, we look at the robot class. First, we'll create a robot and move 
 ### Notebook 2
 To implement Graph SLAM, a matrix and a vector (omega and xi, respectively) are introduced. The matrix is square and labelled with all the robot poses (xi) and all the landmarks (Li). Every time you make an observation, for example, as you move between two poses by some distance dx and can relate those two positions, you can represent this as a numerical relationship in these matrices.
 
-It's easiest to see how these work in an example. Below you can see a matrix representation of omega and a vector representation of xi.
-
-
-Next, let's look at a simple example that relates 3 poses to one another.
+It's easiest to see how these work in a simple example that relates 3 poses to one another.
 <img src="https://github.com/Lumia720/Landmark-Detection-Tracking/blob/main/images/omega_xi_constraints.png">
 
 
-
-
-When you start out in the world most of these values are zeros or contain only values from the initial robot position
-In this example, you have been given constraints, which relate these poses to one another. Constraints translate into matrix values
+### Notebook 3 : Landmark Detection and Tracking
